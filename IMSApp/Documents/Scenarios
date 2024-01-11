@@ -1,0 +1,86 @@
+Inventory Management Scenarios
+
+Team Members
+
+Sam Fletcher, Tyler Nelson, Joel Scott
+
+S1: Adding items to IMS
+  The user will be given new items by their company management to put into 
+the Inventory management system. with this info they will have the item ID, 
+name, description, cost, amount of available stock, vendorId, etc. when 
+they choose add item, it will then ask which category to place the item under. 
+once its destination has been chosen it will then ask for the required info 
+for the item to be logged into the system. The System then takes the information 
+of that item and adds it to the list of items that are in that category. 
+
+S2: Removeing an item from IMS
+	in this senario an item is removed from the file based storage system. the user will initially 
+specify a file in which to pull the required item out of, for example a Blue shirt that is being discontinued. 
+once the user has selected the category file Shirts, the user will select the item from a drop down list or search 
+it on the drop down list and select the item. once the item has been selected the user will be prompted if they 
+wish to continue with deletion. if they chose confirm the item is removed from the list updating the file with 
+the item now removed, but if they hit cancel the item will not be removed and the selection wil be canceled.
+
+S3: editing an item to remove stock or adjust prices.
+	in this senario a user is editing an item from their file based storage system with the IMS. the user will 
+specify the file and chose edit item from the list of options. once there they will specify which item to change 
+for example from the drinks category, their editing the cokes price range due to a shortage. they will select the 
+cokes and be sent to an editor in which they can change any info curently specified on this item. since they are 
+editing the price they will scroll to price and change it. once they have made their changes they will be asked to 
+confirm their changes, if yes the changes will be saved, if not their price will remain the same.
+
+S4: Adding categories to the IMS
+  In this scenario the user will be given a task by management to put the new items that have just 
+arrived. In this case the user will go the system and find that there are no categories that
+match this specific type of item. The user will select the item for adding a new category into the 
+system. In the case of adding the new category, the user will be asked for the name of the new 
+category to input it into the system. The new category will then be placed into the listing of all 
+other categories so that items may now be placed into it. 
+
+S5: Searching for an item in the IMS by category
+  In this scenario the user will be searching through the IMS to try and find an item. The user will select an option 
+to search by category. Once the user has selected the option to search by category they will be prompted to input more 
+information. The user will then be prompted to input the name of the category and the item that they wish to search for. 
+If the user is able to find the item in the IMS then the program will give them the quantity and price of the item. If 
+the user is unable to find the item in the selected category they will recieve a message telling them that the item could 
+not be found and they will be directed back to the home menu. 
+  
+S6: Cost of goods sold and gross profit
+  In this scenario the user will be given the task to determine what the cost of goods sold was and what the 
+gross profit is for a selected set of dates. The user will select an option for prices involving the goods. 
+They will then be given a choice of two items, see the value for cost of goods sold or see the gross profit. 
+The user will select the option to see the gross profit and will be prompted to enter the selected 
+dates that they want to see the information for, or select an option to view the overall gross profit for the 
+store. The user will be displayed information relating to the choice they had selected, and will be given an 
+option to return back to the home menu. 
+
+S7: Searching for an item in the IMS by lot number 
+  In this scenario the user will be searching through the IMS to try and find an item. The user will select an option to serach 
+by lot number. Once the user has selected the option to search by lot number they will be prompted to input more information. 
+The user  will then be prompted to enter the lot number and the name of the item. If the user is able to find the item the program 
+will give them the quantity and price of the item. If the program is unable to find the item they will recieve a message telling 
+them that the item could not be found and they will be directed back to the home menu. 
+
+S8: Searching for a category of Items for stocking totals
+  In this senario we are asked to look in the IMS system for a list of items
+for stocking totals. First off, we need to search for a category so lets say
+Drinks for example. The user will then look through the drop down menu for Drinks.
+once Drinks is found they will open up the filter window and sort it by stock amounts.
+with the filter selected, they can hit a button to view the text File in whichis now 
+filtered by stock totals. So now the user sees the text file pop up and knows what 
+needs the highest priority in stocking items since the file is sorted by stock 
+totals.
+
+S9: Sorting by best selling product
+  In this scenario the user will be viewing their best selling products to help them with them in deciding 
+what to order. After opening the program, the user will click on the “Analyze” button (name and wording 
+on the button is subject to change), showing a dropdown menu of options. They will then select the option 
+to view their best selling products. This will show a window that allows them to see their products listed 
+by best selling.
+  
+S10: Selecting LIFO/FIFO
+  In this scenario, the user will be selecting how they want their product to be released when they remove it from the 
+system. When the user elects to remove an item from the system, if no selection has been previously made, they will be 
+prompted to choose between last in first out or first in first out. If they decide to change this from one of the menu items 
+later on, they will be given a warning message to make sure they comply with accounting regulations, then be able to select 
+“Confirm” or “Cancel.”

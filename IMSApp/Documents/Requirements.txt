@@ -1,0 +1,101 @@
+Inventory Managment Requirements
+
+Team Members
+
+Sam Fletcher, Tyler Nelson, Joel Scott
+
+Purpose
+
+this project is an inventory managment system 
+it will be able to manipulate lists of complex 
+data into organized file format data sheets of 
+items in their specified categories
+
+Requirements 
+
+R1.  Name: add_new_item
+     Type: Functional
+     Summary: personel of the company will be able to add new Items
+     to this inventory managment system in the specified categories 
+     that are in the system
+
+R2.  Name: add_existing_item
+     Type: Functional
+     Summary: personel of the company will be able to add existing items 
+     to this inventory managment system in the specified categories 
+     that are in the system
+     
+R3.  Name: add_category
+     Type: Functional
+     Summary: Personel should be able to add new categories in 
+     system for the purpose of adding new categories into said category.
+     
+R4.  Name: remove_category
+     Type: Functional
+     Summary: Personel should be able to remove categories in the system. 
+     
+R5.  Name: edit_category
+     Type: Functional
+     Summary: Personel should be able to edit current categories in the 
+     system. 
+
+R6.  Name: remove_recall_item
+     Type: Functional
+     Summary: Items may be removed from the inventory managment system
+     for the porpose of removing batches for recall reasons.
+     
+R7.  Name: remove_write-off_item
+     Type: Functional
+     Summary: Items may be removed from the inventory managment system
+     for the purpose of writing off the item for stolen purposes.
+     
+R8.  Name: remove_sale_item
+     Type: Functional
+     Summary: Items may be removed from the inventory managment system
+     for the porposes of sale managment purposes.
+
+R9.  Name: searching_function
+     Type: Functional
+     Summary: Should allow users search specific needs from the system 
+     and should return info specifically for what they need.
+
+R10.  Name: Total_Value
+     Type: Functional
+     Summary: Should allow users get total values of all items in 
+     stock for maintnence and accounting puropses.
+
+R11.  Name: Sorting_Function
+     Type: Functional
+     Summary: Should allow users the way of viewing info sorted in 
+     specified ways.
+
+R12.  Name: platform_os
+     Type: Constraint
+     Summary: Targeted operating system for this appliction is Windows 10 
+     and needs the use of a third party .
+
+R13.  Name: limited_items
+     Type: Constraint
+     Summary: Targeted for those with low ammounts of stock or 
+     only sell uniquely low quanity amount of products.
+
+R14.  Name: ease_of_use
+     Type: Constraint
+     Summary: Should be compatible to use with new users who are not too 
+     familiar with typical inventory managment system products.
+
+R15. Name: inventory_list_secure
+     Type: Risk
+     Summary: All information for store inventory shall be stored in a 
+     secure fashion.
+     
+R16. Name: FIFO_or_LIFO
+     Type: Functional
+     Summary: Users should be able to choose which order items are released 
+     from inventory to match their accounting procedures.
+
+R17. Name: edit_Item
+     Type: Functional
+     Summary: User should be able to edit items from their inventory managment 
+     system to change item info to satisfy managing items stock numbers, and price 
+     changes, etc.

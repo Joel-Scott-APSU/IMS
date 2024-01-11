@@ -1,0 +1,31 @@
+﻿<Window x:Class="IMSApp.FIFOWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMSApp"
+        mc:Ignorable="d"
+        Title="FIFOWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="LightSlateGray" Grid.RowSpan="3" Grid.ColumnSpan="2"></Grid>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"
+                   VerticalAlignment="Center" Background="LightSlateGray" Foreground="white"
+                   Text="Before selecting, please make sure you are following the necessary accounting rules and guidelines."/>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="Select either first in first out (FIFO), or last in first out (LIFO)"
+                   FontSize="20" Background="LightSlateGray" Foreground="White"></TextBlock>
+        <Button x:Name="FIFOButton" Grid.Row="2" Margin="20" Click="FIFOButton_Click">FIFO</Button>
+        <Button x:Name="LIFOButton" Grid.Row="2" Grid.Column="1" Margin="20" Click="LIFOButton_Click">LIFO</Button>
+
+
+    </Grid>
+</Window>
